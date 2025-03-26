@@ -58,6 +58,8 @@ nav ul li a:hover {
     align-items: center;
     padding: 5% 10%;
     margin-top: 6%;
+    animation: beuszas 3s ease-in-out;
+    
 
 }
 
@@ -102,10 +104,14 @@ nav ul li a:hover {
     border: 3px solid #000000;
     color: rgb(0, 0, 0);
     font-size: 22px;
+    cursor: pointer;
+    
+
 
 }
 
 .btn2 {
+
     margin-top: 20px;
     padding: 24px 48px;
     text-decoration: none;
@@ -116,12 +122,21 @@ nav ul li a:hover {
     border: 3px solid #000000;
     color: #000000;
     background-color: #fff5d7;
+    cursor: pointer;
+
 }
 
+.btn1:hover{
+    background-color: #557455;
+}
+.btn2:hover{
+    background-color: #dad0b2;
+}
 .hosok img {
     width: 600px;
     margin-left: 100%;
     margin-top: -65%
+    
 }
 
 footer {
@@ -136,4 +151,14 @@ footer {
 
 
 
+}
+@keyframes beuszas{
+    from{
+        opacity: 0;
+        transform:translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
