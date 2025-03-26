@@ -4,7 +4,12 @@
 }
 
 body {
-    background-color: #fff5da;
+    
+    font-family: 'Playfair Display', serif;
+    background-color: #fff5d7;
+    color: #4a2e2a;
+    margin: 0;
+    padding: 0;
 }
 
 nav {
@@ -35,4 +40,69 @@ nav ul li a {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 600;
     font-style: normal;
+}
+
+.focim{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 10%;
+    margin-top: 6%;
+    
+}
+.focim-szoveg{
+    max-width: 50%;
+}
+
+.focim h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    
+}
+
+.focim p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.buttons {margin-top: 20px; 
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;} 
+
+
+.btn1  {margin-top: 20px; 
+    padding: 24px 48px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #709a62;
+    border: 3px solid #000000;
+    color: rgb(0, 0, 0);
+
+}
+.btn2 {margin-top: 20px; 
+    padding: 24px 48px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    border: 3px solid #000000;
+    color: #000000;
+    background-color: #fff5d7;
+}
+
+.hosok img {width: 600px;
+    margin-left: 100%;
+    margin-top: -60%
+
 }
