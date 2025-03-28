@@ -18,8 +18,8 @@
         <nav>
             <ul>
                 <li><a href="index.html">Kezdőlap</a></li>
-                <li><a href="hero1.html">Achilles</a></li>
-                <li><a href="hero2.html">Hector</a></li>
+                <li><a href="#achilles">Achilles</a></li>
+                <li><a href="#hector">Hector</a></li>
                 <li><a href="csapat.html">Csapat</a></li>
             </ul>
         </nav>
@@ -32,7 +32,7 @@
             <p>Üdvözlünk a Szuperhősök Birodalmában!
 
                 Készülj fel egy izgalmas kalandra, mert most bemutatjuk két különleges szuperhős karakterünket!
-                Mindketten egyedi képességekkel és elképesztő történetekkel rendelkeznek – erejük, bátorságuk és
+                Mindketten egyedi képességekkel és elképesztő történetekkel rendelkeznek  erejük, bátorságuk és
                 eltökéltségük határtalan.
 
                 Ismerd meg őket közelebbről, és fedezd fel, milyen küldetéseken vesznek részt, hogyan harcolnak a gonosz
@@ -42,8 +42,10 @@
                 Kattints a Főoldal gombra, és lépj be a szuperhősök világába! Fedezd fel a titkaikat, csatlakozz
                 hozzájuk a kalandokban, és légy részese egy felejthetetlen történetnek!</p>
             <div class="container">
-                <a href="hero1.html"><button class="btn1">Achilles</button></a>
-                <a href="hero2.html"><button class="btn2">Hector</button></a>
+                <a href="#achilles">
+                    <button class="btn1">Achilles</button> </a>
+                <a href="#hector">
+                    <button class="btn2">Hector</button> </a>
 
             </div>
             <div class="hosok">
@@ -60,63 +62,50 @@
                 <br>
                 <br>
 
-                <h1>Achilles</h1>
-                <p>
-                <ul class="karakter-kepeseg">
-                    <div class="karakterelottzold">
-                        <div class="zoldv"><span class="zold-"></span></div>
-                        <p class="kepesegek">Villámgyors mozgás : Képes emberfeletti sebességgel mozogni és támadni.</p>
+                <section id="achilles" class="section">
+                    <h1 class="ach">Achilles</h1>
+                    <p><div class="feature">
+                        <div class="circle"></div>
+                        <p><strong>Villámgyors mozgás</strong> – Képes emberfeletti sebességgel mozogni és támadni.</p>
                     </div>
-
-
-                    <div class="karakterelottzold">
-                        <div class="zoldv">
-                            <p><span class="zold-"></span>
+                    <div class="feature">
+                        <div class="circle"></div>
+                        <p><strong>Sebezhetetlen bőr</strong> – Testét csak egyetlen gyenge pontján lehet megsebezni.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="circle"></div>
+                        <p><strong>Harci ösztön</strong> – Képes előre megérezni az ellenfél mozdulatait.</p>
+                    </div>
+                    </p>
+                    <div>
+                        <div class="hoskep">
+                            <img src="./img/Achilles-removebg-preview.png" alt="ket hos">
                         </div>
-                        <p class="kepesegek">Sebezhetetlen bőr : Testét csak egyetlen gyenge pontján lehet megsebezni.</p>
                     </div>
-
-
-                    <div class="karakterelottzold">
-                        <div class="zoldv">
-                            <p><span class="zold-"></span>
-                        </div>
-                        <p class="kepesegek">Harci ösztön : Képes előre megérezni az ellenfél mozdulatait.</p>
-                    </div>
-
-
-                </ul>
-                </p>
-                <div>
-                    <div class="hoskep">
-                        <img src="./img/Hector-removebg-preview.png" alt="ket hos">
-                    </div>
-                </div>
+                </section>
             </section>
             <section class="karakter-kp-szoveg">
-                <h1>Hector</h1>
-
-                <ul class="karakter-kepeseg">
-                    <p><span class="zold-"></span>
-                    <p class="kepesegek">Félelmetes erő : Képes puszta kézzel áttkarakter örni falakat és fegyvereket
-                        összezúzni.</p>
-
-
-                    <p><span class="zold-"></span>
-                    <p class="kepesegek">Harci taktikus : Kiváló stratéga, aki mindig a legjobb harci tervet választja.
-                    </p>
-
-
-                    <p><span class="zold-"></span>
-                    <p class="kepesegek">Állóképesség : Rendkívül kitartó, hosszú harcokban is alig fárad el.</p>
-
-                </ul>
-                </p>
-                <div>
-                    <div class="hoskep">
-                        <img src="./img/Achilles-removebg-preview.png" alt="ket hos">
+                <section id="hector" class="section">
+                    <h1 class="hec">Hector</h1>
+                    <div class="feature">
+                        <div class="circle"></div>
+                        <p><strong>Villámgyors mozgás</strong> – Képes emberfeletti sebességgel mozogni és támadni.</p>
                     </div>
-                </div>
+                    <div class="feature">
+                        <div class="circle"></div>
+                        <p><strong>Sebezhetetlen bőr</strong> – Testét csak egyetlen gyenge pontján lehet megsebezni.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="circle"></div>
+                        <p><strong>Harci ösztön</strong> – Képes előre megérezni az ellenfél mozdulatait.</p>
+                    </div>
+                    </p>
+                    <div>
+                        <div class="hoskep", class="hoskeph">
+                            <img src="./img/Hector-removebg-preview.png" alt="ket hos">
+                        </div>
+                    </div>
+                </section>
             </section>
     </main>
 
