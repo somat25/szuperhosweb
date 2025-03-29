@@ -161,7 +161,10 @@ footer {
     font-style: normal;
     margin-top: -2%;
     background-color: #709a62;
-    padding: 20px;
+    padding: 25px;
+    width: 100%;
+    left: 0;
+    right: 0;
     
 
 
