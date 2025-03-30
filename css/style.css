@@ -51,7 +51,7 @@ nav ul li a {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 600;
     font-style: normal;
-    transition: color 0.0s ease, background-color 0.3s ease, transform 0.2s ease;
+    transition: color 0.5s ease,  
 }
 
 nav ul li a:hover {
