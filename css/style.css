@@ -230,13 +230,16 @@ footer {
     display: flex;
     align-items: center;
     margin-bottom: 12px;
-    background-color: #f4f0e6;
+    
     padding: 20px;
     border-radius: 100px;
     margin-top: 10px;
     margin-bottom: 100;
     margin-left: -10%;
     font-weight: 700;
+}
+.bg-grey{
+    background-color: #f4f0e6;
 }
 
 .circle {
