@@ -226,7 +226,7 @@ footer {
 
     
  
- .feature {
+ .lista {
     display: flex;
     align-items: center;
     margin-bottom: 12px;
@@ -240,9 +240,19 @@ footer {
 }
 .bg-grey{
     background-color: #f4f0e6;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    
+    padding: 20px;
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-bottom: 100;
+
+    font-weight: 700;
 }
 
-.circle {
+.zold {
     width: 65px;
     height: 49px;
     background-color: #709a62;
